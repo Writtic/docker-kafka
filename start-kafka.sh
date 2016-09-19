@@ -14,7 +14,7 @@ if [[ -z "$KAFKA_LOG_DIRS" ]]; then
     export KAFKA_LOG_DIRS="/kafka/kafka-logs-$HOSTNAME"
 fi
 if [[ -z "$KAFKA_ZOOKEEPER_CONNECT" ]]; then
-    export KAFKA_ZOOKEEPER_CONNECT=$(env | grep ZK.*PORT_2181_TCP= | sed -e 's|.*tcp://||' | paste -sd ,)
+    export KAFKA_ZOOKEEPER_CONNECT=$(env | grep ZOOKEEPER.*PORT_2181_TCP= | sed -e 's|.*tcp://||' | paste -sd ,)
 fi
 
 if [[ -n "$KAFKA_HEAP_OPTS" ]]; then
@@ -55,7 +55,7 @@ term_handler() {
 
 # Capture kill requests to stop properly
 trap "term_handler" SIGHUP SIGINT SIGTERM
-create-topics.sh & 
+create-topics.sh &
 $KAFKA_HOME/bin/kafka-server-start.sh $KAFKA_HOME/config/server.properties &
 KAFKA_PID=$!
 
