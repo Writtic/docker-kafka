@@ -1,5 +1,4 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/enow/kafka.svg)](https://hub.docker.com/r/enow/kafka/)
-[![Docker Stars](https://img.shields.io/docker/stars/enow/kafka.svg)](https://hub.docker.com/r/enow/kafka/)
 [![](https://images.microbadger.com/badges/image/enow/kafka.svg)](https://hub.docker.com/r/enow/kafka/)
 [![](https://images.microbadger.com/badges/version/enow/kafka.svg)](https://hub.docker.com/r/enow/kafka/)
 docker-kafka
