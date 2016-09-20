@@ -1,11 +1,10 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/enow/kafka.svg)](https://hub.docker.com/r/enow/kafka/)
 [![Docker Stars](https://img.shields.io/docker/stars/enow/kafka.svg)](https://hub.docker.com/r/enow/kafka/)
-<!-- [![](https://badge.imagelayers.io/wurstmeister/kafka:latest.svg)](https://imagelayers.io/?images=wurstmeister/kafka:latest) -->
-
+[![](https://images.microbadger.com/badges/image/enow/kafka.svg)](https://hub.docker.com/r/enow/kafka/)
+[![](https://images.microbadger.com/badges/version/enow/kafka.svg)](https://hub.docker.com/r/enow/kafka/)
 docker-kafka
 ============
-
-Dockerfile for [Apache Kafka](http://kafka.apache.org/)<sub>0.9.0.1</sub> Referenced by [https://github.com/wurstmeister/kafka-docker](https://github.com/wurstmeister/kafka-docker)
+Dockerfile for [Apache Kafka](http://kafka.apache.org/) 0.9.0.1 Referenced by [https://github.com/wurstmeister/kafka-docker](https://github.com/wurstmeister/kafka-docker)
 
 The image is available directly from https://registry.hub.docker.com/
 
