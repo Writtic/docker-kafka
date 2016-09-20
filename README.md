@@ -1,7 +1,4 @@
-[![Docker Pulls](https://img.shields.io/docker/pulls/enow/kafka.svg)](https://hub.docker.com/r/enow/kafka/)
-[![](https://images.microbadger.com/badges/image/enow/kafka.svg)](https://hub.docker.com/r/enow/kafka/)
-[![](https://images.microbadger.com/badges/version/enow/kafka.svg)](https://hub.docker.com/r/enow/kafka/)
-docker-kafka
+docker-kafka [![Docker Pulls](https://img.shields.io/docker/pulls/enow/kafka.svg)](https://hub.docker.com/r/enow/kafka/) [![](https://images.microbadger.com/badges/image/enow/kafka.svg)](https://hub.docker.com/r/enow/kafka/) [![](https://images.microbadger.com/badges/version/enow/kafka.svg)](https://hub.docker.com/r/enow/kafka/)
 ============
 Dockerfile for [Apache Kafka](http://kafka.apache.org/) 0.9.0.1 Referenced by [https://github.com/wurstmeister/kafka-docker](https://github.com/wurstmeister/kafka-docker)
 
